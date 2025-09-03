@@ -51,15 +51,17 @@ Run the following SQL to create your database:
 
 use product.sql file
 
-## Extra: Add `.env` Support in Your Code
+## Extra: Add required packages and `.env` Support in Your Code
 
-Make sure to install `dotenv`:
+Make sure to install `dotenv`as well:
 
 ```bash
-npm install dotenv
+npm install dotenv mysql2 express method-override ejs
+```
+
 Create a `.env` file in the root of your project:
 
-### `.env`
+### `.env` variables
 
 ```env
 DB_HOSTNAME=localhost
@@ -72,7 +74,9 @@ PORT=7777
 ```bash
 npm install
 node server.js
+```
 
 ###Then visit 
 
+```bash
 http://localhost:7777
