@@ -69,7 +69,7 @@ DB_USERNAME=root
 DB_PASSWORD=
 DB_NAME=product
 PORT=7777
-
+```
 
 ```bash
 npm install
@@ -80,3 +80,4 @@ Then visit
 
 ```bash
 http://localhost:7777
+```
