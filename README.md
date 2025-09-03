@@ -76,7 +76,7 @@ npm install
 node server.js
 ```
 
-###Then visit 
+Then visit 
 
 ```bash
 http://localhost:7777
